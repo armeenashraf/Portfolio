@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+       <link rel="shortcut icon" href="./images/port.png" type="image/x-icon">
+    <title>Frontened Developer</title>
+</head>
+<body bgcolor="black">
+ 
+<nav class="bg-neutral-primary fixed w-full z-20 top-0 start-0 nav">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./images/port.png" class="w-40 h-20" alt="Flowbite Logo" />
+       
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex text-white items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary text-white">
+        <li>
+          <a href="#home" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0 li" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">About</a>
+        </li>
+        <li>
+          <a href="#education" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Education</a>
+        </li>
+        <li>
+          <a href="#skills" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Skills</a>
+        </li>
+         <li>
+          <a href="#project" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Projects</a>
+        </li>
+        <li>
+          <a href="#contact" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="body-font relative top-10" id="home">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text">I am Frontend Developer</h1>
+      <p class="mb-8 leading-relaxed text-white">I am an 8th class student and a passionate web development learner. Currently, I am learning JavaScript and improving my skills in HTML, CSS, and modern web design. I enjoy creating websites, exploring new technologies, and continuously growing as a frontend developer.
+</p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white py-2 px-6 focus:outline-none rounded text-lg bg-[#2f83b8]"><a href="https://github.com/armeenashraf" target="_blank">Explore my Github</a></button>
+        <button class="ml-4 inline-flex border-0 py-2 px-6 focus:outline-none rounded text-lg btn"><a href="./images/ArmeenResume.jpeg" download="ArmeenResume">Download CV</a></button>
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-2/2 image">
+      <img class="object-cover object-center rounded drop-shadow-[0_10px_20px_#2f83b8]" alt="hero" src="./images/me.png">
+    </div>
+  </div>
+</section>
+
+<section class="text-gray-600 body-font" id="about">
+   
+  <div class="container px-5 py-24 mx-auto flex flex-col">
+     <center>
+        <h1 class="text-[#2f83b8] font-bold text-3xl">About</h1>
+    </center>
+    <div class="lg:w-4/6 mx-auto">
+      <div class="flex flex-col sm:flex-row mt-10">
+        <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+          <div class="w-30 h-30 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+           <img src="./images/about.png" class="rounded-full drop-shadow-[0_10px_20px_#2f83b8]">
+          </div>
+          <div class="flex flex-col items-center text-center justify-center">
+            <h2 class="font-medium title-font mt-4 text-white text-lg">Armeen M. Ashraf</h2>
+            <div class="w-12 h-1 bg-[#2f83b8] rounded mt-2 mb-4"></div>
+            <p class="text-[#2f83b8]">Frontend Developer | UI Dreamer | SMIT Student</p>
+          </div>
+        </div>
+        <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+          <p class="leading-relaxed text-lg mb-4 text-white"><span class="text-[#2f83b8]">armeenashraf805@gmail.com</span> <br>I am an 8th-grade student with a strong interest in technology and web development, and I am currently learning frontend development where I have reached JavaScript in my learning journey. I am still at an early stage, but I am very passionate about improving my skills and understanding how websites are designed and built using HTML, CSS, and JavaScript. I enjoy creating simple web pages, experimenting with different ideas, and practicing regularly so I can become more confident in coding and problem-solving. My goal is to grow step by step into a skilled frontend developer, build creative projects in the future, and keep improving my knowledge of modern web technologies through consistent learning and practice.
+</p>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="text-gray-600 body-font" id="education">
+     <center>
+        <h1 class="text-[#2f83b8] font-bold text-3xl">Education</h1>
+    </center>
+  <div class="container px-5 py-24 mx-auto">
+
+    </h1>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+      <div class="p-4 md:w-1/3 flex">
+        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+         <img src="./images/smit.jpg" class="rounded-full">
+        </div>
+        <div class="flex-grow pl-6">
+          <h2 class="text-[#2f83b8] text-lg title-font font-medium mb-2">Modern Web Development</h2>
+          <p class="leading-relaxed text-white">Started in: <span class="text-[#2f83b8]">2025</span> <br>Currently Learning JavaScript <br> Making responsive web applications</p>
+         
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3 flex">
+        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+<img src="./images/gps.png" class="rounded-full">
+        </div>
+        <div class="flex-grow pl-6">
+          <h2 class="text-[#2f83b8] text-lg title-font font-medium mb-2">Student</h2>
+          <p class="leading-relaxed text-white">Currently: <span class="text-[#2f83b8]">2026</span>
+        <br> 8th class student <br> Strong interest in web development</p>
+          
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3 flex">
+        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+         <img src="./images/canva.png" class="rounded-full">
+        </div>
+        <div class="flex-grow pl-6">
+          <h2 class="text-[#2f83b8] text-lg title-font font-medium mb-2">Basics</h2>
+          <p class="leading-relaxed text-white"><span class="text-[#2f83b8]">Basic Learning</span> <br>
+        I learned Canva by myself through self-practice and exploration.</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="text-gray-600 body-font" id="skills">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+      <h1 class="sm:text-4xl text-4xl font-medium title-font mb-2 text-[#2f83b8]" id="skills">Skills</h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-400"><b>“Your future is created by what you do today, not tomorrow.”</b></p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/3 md:w-1/2 p-4  card">
+        <div class="border border-[#2f83b8] p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 mb-4">
+            <img src="./images/html.png" class="h-8">
+          </div>
+          <h2 class="text-lg text-white font-medium title-font mb-2">HTML (Hyper Text Markup Language)</h2>
+         <div class="flex justify-between mb-1">
+  <span class="text-sm font-medium text-body">Html</span>
+  <span class="text-sm font-medium text-body">98%</span>
+</div>
+<div class="w-full bg-white rounded-full h-3">
+  <div class="bg-[#2f83b8] h-3 rounded-full" style="width: 98%"></div>
+</div>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4 card">
+        <div class="border border-[#2f83b8] p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 mb-4">
+            <img src="./images/css.png" class="h-7">
+          </div>
+          <h2 class="text-lg text-white font-medium title-font mb-2">Css (Cascading Style Sheets)</h2>
+          <div class="flex justify-between mb-1">
+  <span class="text-sm font-medium text-body">Css</span>
+  <span class="text-sm font-medium text-body">95%</span>
+</div>
+<div class="w-full bg-white rounded-full h-3">
+  <div class="bg-[#2f83b8] h-3 rounded-full" style="width: 95%"></div>
+</div>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4 card">
+        <div class="border border-[#2f83b8] p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 mb-4">
+            <img src="./images/js.png" class="h-7">
+          </div>
+          <h2 class="text-lg text-white font-medium title-font mb-2">Js (JavaScript)</h2>
+          <div class="flex justify-between mb-1">
+  <span class="text-sm font-medium text-body">JavaScript</span>
+  <span class="text-sm font-medium text-body">50%</span>
+</div>
+<div class="w-full bg-white rounded-full h-3">
+  <div class="bg-[#2f83b8] h-3 rounded-full" style="width: 50%"></div>
+</div>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4 card">
+<div class="border border-[#2f83b8] p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 mb-4">
+            <img src="./images/git.png" class="h-7">
+          </div>
+          <h2 class="text-lg text-white font-medium title-font mb-2">Github / Git</h2>
+          <div class="flex justify-between mb-1">
+  <span class="text-sm font-medium text-body">Github</span>
+  <span class="text-sm font-medium text-body">70%</span>
+</div>
+<div class="w-full bg-white rounded-full h-3">
+  <div class="bg-[#2f83b8] h-3 rounded-full" style="width:70%"></div>
+</div>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4 card">
+        <div class="border border-[#2f83b8] p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 mb-4">
+            <img src="./images/Tcss.png" class="h-7">
+          </div>
+          <h2 class="text-lg text-white font-medium title-font mb-2">TailwindCss</h2>
+         
+<div class="flex justify-between mb-1">
+  <span class="text-sm font-medium text-body">TailwindCss</span>
+  <span class="text-sm font-medium text-body">90%</span>
+</div>
+<div class="w-full bg-white rounded-full h-3">
+  <div class="bg-[#2f83b8] h-3 rounded-full" style="width: 90%"></div>
+</div>
+
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4 card">
+        <div class="border border-[#2f83b8] p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-pink-100 text-pink-500 mb-4">
+            <img src="./images/fire.png" class="h-7">
+          </div>
+          <h2 class="text-lg text-white font-medium title-font mb-2">FireBase</h2>
+          <div class="flex justify-between mb-1">
+          <span class="text-sm font-medium text-body">FireBase</span>
+           <span class="text-sm font-medium text-body">45%</span>
+</div>
+<div class="w-full bg-white rounded-full h-3">
+  <div class="bg-[#2f83b8] h-3 rounded-full" style="width: 45%"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<section class="text-gray-600 body-font"  id="project">
+      <center>
+        <h1 class="text-[#2f83b8] font-bold text-3xl">Projects</h1>
+    </center>
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-[#2f83b8] border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/fb.PNG" alt="blog">
+          <div class="p-6">
+            <h1 class="title-font text-lg font-medium text-white mb-3">Frosty Bliss</h1>
+            <p class="leading-relaxed mb-3 text-gray-400">A beautiful white and red combo ice cream website made by Html , CSS , Tailwind css</p>
+            <div class="flex items-center flex-wrap ">
+             <button class="btn2"><a href="https://armeenashraf.github.io/Frosty-bliss/" target="_blank">View Project</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-[#2f83b8] border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/pw.PNG" alt="blog">
+          <div class="p-6">
+            <h1 class="title-font text-lg font-medium text-white mb-3">Prime Wheelz</h1>
+            <p class="leading-relaxed mb-3 text-gray-400">A beautiful yelllow and black combo car website made by Html , CSS , Tailwind css</p>
+            <div class="flex items-center flex-wrap ">
+             <button class="btn2"><a href="https://primewheelz.netlify.app/" target="_blank">View Project</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-[#2f83b8] border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/vs.PNG" alt="blog">
+          <div class="p-6">
+            <h1 class="title-font text-lg font-medium text-white mb-3">Velvet Sip</h1>
+            <p class="leading-relaxed mb-3 text-gray-400">A beautiful brown and white cafe website made by Html , CSS , Tailwind css</p>
+            <div class="flex items-center flex-wrap ">
+             <button class="btn2"><a href="https://velvet-sip.netlify.app/" target="_blank">View Project</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font">
+   
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-[#2f83b8] border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/ms.PNG" alt="blog">
+          <div class="p-6">
+            <h1 class="title-font text-lg font-medium text-white mb-3">Mini Ms Word</h1>
+            <p class="leading-relaxed mb-3 text-gray-400">A fully functional website used to bold underline italics aligning fonts and set font sizes made by Js , Html , Css</p>
+            <div class="flex items-center flex-wrap ">
+             <button class="btn2"><a href="https://mini-ms-wordd.netlify.app/" target="_blank">View Project</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-[#2f83b8] border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/ngg.PNG" alt="blog">
+          <div class="p-6">
+            <h1 class="title-font text-lg font-medium text-white mb-3">Number Guessing Game</h1>
+            <p class="leading-relaxed mb-3 text-gray-400">A fully functional game website where you will guess a number and it will tell your answer made by Html , Css , Js</p>
+            <div class="flex items-center flex-wrap ">
+             <button class="btn2"><a href="https://number-guessing-namee.netlify.app/" target="_blank">View Project</a></button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-[#2f83b8] border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/tg.PNG" alt="blog">
+          <div class="p-6">
+             <h1 class="title-font text-lg font-medium text-white mb-3">Table Generator</h1>
+            <p class="leading-relaxed mb-3 text-gray-400">A fully functional website used to print maths table according to your given number made ny Js , Html , Css</p>
+            <div class="flex items-center flex-wrap ">
+             <button class="btn2"><a href="https://table-generatorrr.netlify.app/" target="_blank">View Project</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font relative" id="contact">
+  <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+    <div class="lg:w-2/3 md:w-1/2 bg-black rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+   
+      <div class="bg-gray-800 relative flex flex-wrap py-6 rounded shadow-md shade">
+        <div class="lg:w-1/2 px-6">
+          <h2 class="title-font font-semibold text-[#2f83b8] tracking-widest text-xs">LOCATION</h2>
+          <p class="mt-1 text-white">Karachi Division , Sindh , Pakistan</p>
+        </div>
+        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+          <h2 class="title-font font-semibold text-[#2f83b8] tracking-widest text-xs">EMAIL</h2>
+          <a class="text-indigo-500 leading-relaxed text-white">armeenashraf805@gmail.com</a>
+        </div>
+      </div>
+    </div>
+     <!-- <form action="https://formsubmit.co/hafsanadim246@gmail.com" method="POST"></form> -->
+    <div class="lg:w-1/3 md:w-1/2 bg-gray-800 flex flex-col px-5 md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+      <div class="relative mb-4">
+        <form action="https://formsubmit.co/hafsanadim246@gmail.com" method="POST">
+        <label for="name" class="leading-7 text-sm text-[#2f83b8]">Name</label>
+        <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <div class="relative mb-4">
+        <label for="email" class="leading-7 text-sm text-[#2f83b8]">Email</label>
+        <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <div class="relative mb-4">
+        <label for="message" class="leading-7 text-sm text-[#2f83b8]">Message</label>
+        <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+      </div>
+      <button class="text-white bg-[#2f83b8] border-0 py-2 px-6 focus:outline-none rounded text-lg">Send</button>
+      </form>
+      
+    </div>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+</body>
+</html>
